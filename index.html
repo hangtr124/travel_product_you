@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Company Website</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      background-color: #f8f8f8;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3d84b8;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .product {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .product img {
+      width: 100px;
+      height: 100px;
+    }
+
+    footer {
+      background-color: #3d84b8;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    form label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #3d84b8;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Travel Company</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to our Travel Company</h2>
+    <p>Discover amazing destinations and create unforgettable memories.</p>
+    <button>Learn More</button>
+  </section>
+
+  <section id="product">
+    <h2>Our Travel Products</h2>
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <div>
+        <h3>Product 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus eget justo interdum, a
+          scelerisque tortor feugiat.</p>
+        <button>View Details</button>
+      </div>
+    </div>
+    <div class="product">
+      <img src="product2.jpg" alt="Product 2">
+      <div>
+        <h3>Product 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat risus eget justo interdum, a
+          scelerisque tortor feugiat.</p>
+        <button>View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Travel Company. All rights reserved.</p>
+  </footer>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script>
+    // JavaScript code goes here
+    // You can add interactivity or additional functionality to your website using JavaScript.
+  </script>
+</body>
+
+</html>
